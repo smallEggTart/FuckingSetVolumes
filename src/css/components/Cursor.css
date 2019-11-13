@@ -1,0 +1,38 @@
+.control {
+    position: relative;
+    width: 200px;
+}
+
+.volume {
+    margin-left: 90px;
+}
+
+.ruler {
+    position: relative;
+}
+
+.highlight {
+    position: absolute;
+    left: calc(50% - 10px);
+}
+
+.move {
+    position: absolute;
+    top: 0;
+    margin-left: -20px;
+    animation: test 3s infinite;
+}
+
+@keyframes test {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
